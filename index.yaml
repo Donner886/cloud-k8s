@@ -3,7 +3,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-11-26T21:29:36.597345+08:00"
+    created: "2020-11-26T22:34:02.190503+08:00"
     deprecated: true
     description: DEPRECATED Open source, advanced key-value store. It is often referred
       to as a data structure server since keys can contain strings, hashes, lists,
@@ -19,6 +19,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-redis
     urls:
-    - redis-10.5.7.tgz
+    - https://donner886.github.io/cloud-k8s/redis-10.5.7.tgz
     version: 10.5.7
-generated: "2020-11-26T21:29:36.594395+08:00"
+generated: "2020-11-26T22:34:02.186264+08:00"
