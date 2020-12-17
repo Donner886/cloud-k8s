@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: qos-demo-2-containers
+  namespace: pods-containers
+spec:
+  containers: 
+    - name: qos-demo-2-containers-1
+      image: nginx
+      resources:
+        requests: 
+          memory: "200Mi"
+    - name: 
+      image: redis
